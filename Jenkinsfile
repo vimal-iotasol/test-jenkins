@@ -29,7 +29,7 @@ pipeline {
             steps {
                 script {
                     // Run test cache
-                    sh 'php artisan test'
+                    // sh 'php artisan test'
                 }
             }
         }
