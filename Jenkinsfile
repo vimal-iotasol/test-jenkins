@@ -24,15 +24,6 @@ pipeline {
                 }
             }
         }
-
-        stage ('Run Tests') {
-            steps {
-                script {
-                    // Run test cache
-                    // sh 'php artisan test'
-                }
-            }
-        }
     }
 
     post {
