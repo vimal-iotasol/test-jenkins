@@ -21,9 +21,6 @@ pipeline {
 
                     // Install npm dependencies
                     sh 'npm install'
-
-                    // Compile assets
-                    sh 'npm run dev'
                 }
             }
         }
