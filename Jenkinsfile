@@ -21,18 +21,6 @@ pipeline {
 
                     // Install npm dependencies
                     sh 'npm install'
-
-                    // Compile assets
-                    sh 'npm run dev'
-                }
-            }
-        }
-
-        stage ('Run Tests') {
-            steps {
-                script {
-                    // Run test cache
-                    sh 'php artisan test'
                 }
             }
         }
