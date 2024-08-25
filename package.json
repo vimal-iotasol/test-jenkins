@@ -1,8 +1,6 @@
 {
     "private": true,
-    "scripts": {
-        "dev": "npm run development"
-    },
+    "scripts": {},
     "devDependencies": {
         "axios": "^0.18",
         "bootstrap": "^4.0.0",
