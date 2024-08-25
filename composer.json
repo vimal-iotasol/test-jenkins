@@ -1,0 +1,24 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "aws/aws-sdk-php": "^3.275",
+        "jenssegers/mongodb": "^3.7",
+        "laravel/framework": "^9.0",
+        "sendgrid/sendgrid": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
