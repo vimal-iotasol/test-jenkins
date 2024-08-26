@@ -18,9 +18,6 @@ pipeline {
                 script {
                     // Install composer dependencies
                     sh 'composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts --optimize-autoloader'
-
-                    // Install npm dependencies
-                    sh 'npm install'
                 }
             }
         }
