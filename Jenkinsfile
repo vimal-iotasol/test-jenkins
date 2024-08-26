@@ -25,6 +25,11 @@ pipeline {
 
     post {
         always {
+            sh 'git fetch'
+
+            sh 'git checkout local-branch'
+
+            sh 'mv .env.example .env'
             // Cleanup actions, notifications, etc.
             // Archive test results, artifacts, etc.
             echo 'Pipeline finished'
